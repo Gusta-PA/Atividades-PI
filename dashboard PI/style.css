@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    display: flex;
+    height: 100%;
+    font-family:sans-serif
+}
+
+.barraLateral{
+    width: 10%;
+    height: 100;
+    background-color: rgb(214, 58, 58);
+    border-right: solid 2px black;
+}
+.Content{
+    padding-left: 20px;
+}
+.graficos{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 20px;
+    position: relative;
+    height: 40vh;
+    width: 40vw
+}
+
+.graficos canvas {
+    width: 45vw; /* Largura relativa à viewport */
+    height: 40vh; /* Altura relativa à viewport */
+    margin: 10px;
+}
+.texto{
+    width: 50%;
+}
+
+.contentbox1{
+    display: flex;
+    padding-top: 30px;
+}
+
